@@ -1,9 +1,13 @@
 * Download sbt from http://scala-sbt.org
-* ```
+* Run
+
+  ```
   cd applause-sdk-test
   sbt run
   ```
-* ```
+* In logcat:
+
+  ```
   ext.com.google.inject.CreationException: Guice creation errors:
     1) No implementation for android.content.Context was bound.
     while locating android.content.Context
